@@ -3,6 +3,18 @@
 ## Overview
 End-to-end healthcare data analysis demonstrating comprehensive data science skills applied to synthetic medical data. This project showcases real-world analytical workflows from data quality assessment through advanced modeling and interpretation.
 
+## Real-World Healthcare Analytics Experience
+
+This analysis demonstrates techniques and best practices learned through hands-on experience with healthcare data analytics at **Sunnybrook Health Sciences Centre**. While all data here is synthetic to ensure privacy compliance, the methodologies reflect real-world challenges encountered in clinical analytics:
+
+- **Clinical Data Quality Patterns**: Realistic missing value distributions and data inconsistencies
+- **Healthcare Feature Engineering**: Domain-specific transformations for patient outcomes
+- **Regulatory Compliance**: Privacy-preserving analysis techniques and documentation standards
+- **Statistical Validation**: Clinical research-grade statistical reporting with statsmodels
+- **Stakeholder Communication**: Healthcare-appropriate visualizations and interpretable results
+
+The synthetic data generation and analysis pipeline mirrors the complexity and challenges of working with real Electronic Health Records (EHR) while maintaining complete patient privacy.
+
 ## Key Skills Demonstrated
 - **Data Quality Management**: Controlled injection and remediation of missing data and duplicates
 - **Feature Engineering**: Clinical data transformation including heart rate variability, lab aggregates, and temporal features
@@ -21,7 +33,7 @@ End-to-end healthcare data analysis demonstrating comprehensive data science ski
 ## Technologies Used
 - **Python**: pandas, numpy, scikit-learn, matplotlib, seaborn
 - **Machine Learning**: Logistic Regression, Random Forest, XGBoost
-- **Statistical Analysis**: scipy, statsmodels
+- **Statistical Analysis**: scipy, statsmodels (logistic regression with odds ratios, p-values, confidence intervals)
 - **Development Environment**: Jupyter Notebook for reproducible analysis
 
 ## Project Structure
